@@ -152,8 +152,6 @@ double Rollout(int t_max, std::shared_ptr<MctsNode> const& curr_node_ptr,
 
 void BackPropagate(double gamma, double child_value, MctsNode& curr_node) {
   double const node_value = curr_node.reward() + child_value;
-  double const lwest = std::numeric_limits<double>::lowest();
-  double const inf_q = curr_node.q() + node_value;
   curr_node.set_q(curr_node.q() + node_value);
   curr_node.increase_visit_time();
   if (curr_node.parent() != nullptr) {
