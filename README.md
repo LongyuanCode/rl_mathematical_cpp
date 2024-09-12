@@ -32,3 +32,8 @@
   
 # Doc
 Mathematical derivation and analysis.
+
+# Third-party Libraries
+You may need these thrid-party libraries:
+* [rlenvs_from_cpp](https://github.com/pockerman/rlenvs_from_cpp) provides a minimal number of wrappers for some common Gymnasium (former OpenAI-Gym) environments for C++ implementation.
+* [Googel Test](https://github.com/google/googletest)
