@@ -28,7 +28,7 @@
 * Off-policy actor-critic based on importance sampling
 * Deterministic actor-critic
 * Soft Actor-Critic
-* Model Predictive Control (TODO)
+* RLHF
   
 # Doc
 Mathematical derivation and analysis.
